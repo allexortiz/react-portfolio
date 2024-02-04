@@ -5,9 +5,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-import App from './App'
+import App from './App';
+import Error from './pages/Error';
 import Aboutme from './pages/Aboutme';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 
 const router = createBrowserRouter([
