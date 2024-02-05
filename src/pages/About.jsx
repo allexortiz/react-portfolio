@@ -1,14 +1,16 @@
-export default function Aboutme() {
+import profile from '../assets/profile.jpg';
+
+export default function About() {
   return (
     <div>
       <section className="d-flex justify-content-center">
         <h1>About Me</h1>
       </section>
-      <section className="d-flex justify-content-between align-items-center">
-        <div className="flex-basis-100 flex-grow-1 bg-secondary">
-          <img src="https://media.istockphoto.com/id/184103864/photo/clouds-on-sky.webp?b=1&s=170667a&w=0&k=20&c=uCahXbJFxh5m_cKjgUlsO-LdylkKMoRmzSLCJQJSJFQ=" alt="" srcset="" className="" />
+      <section className="d-flex justify-content-between">
+        <div className="bg-secondary">
+          <img src={profile} alt="a photo of me" className="" />
         </div>
-        <div className="bg-warning">
+        <div className="bg-warning align-items-center flex-wrap p-4">
           <h3>A little bit about me:</h3>
           <p>
             Hi there! I'm Allex Ortiz, a devoted father, music enthusiast, football aficionado, and aspiring web developer on a journey of transition and growth.
