@@ -10,7 +10,7 @@ export default function About() {
         <div className="bg-secondary">
           <img src={profile} alt="a photo of me" className="" />
         </div>
-        <div className="bg-warning align-items-center flex-wrap p-4">
+        <div className="align-items-center flex-wrap p-4">
           <h3>A little bit about me:</h3>
           <p>
             Hi there! I'm Allex Ortiz, a devoted father, music enthusiast, football aficionado, and aspiring web developer on a journey of transition and growth.
