@@ -9,8 +9,9 @@ import App from './App';
 import Error from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
+import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 const router = createBrowserRouter([
   {
@@ -20,10 +21,6 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
       {
@@ -33,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/Portfolio',
         element: <Portfolio />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
       },
     ],
   },
