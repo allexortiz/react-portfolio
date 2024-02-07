@@ -30,7 +30,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <div>
+    <div className='d-flex flex-column'>
       <h1 className='d-flex justify-content-center'>My Portfolio</h1>
       <div className="projects-container d-flex align-items-center">
         {projects.map((project, index) => (
@@ -38,10 +38,12 @@ export default function Portfolio() {
             <div className="project">
               <h2>{project.title}</h2>
               <p>{project.description}</p>
-              <img src={project.image} alt={project.title} className="project-image" />
-              <div>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">Visit Project</a>
-                <a href={project.secondaryLink} target="_blank" rel="noopener noreferrer">Source Code</a>
+              <div className='position-relative'>
+                <img src={project.image} alt={project.title} className="project-image" />
+                <div className='position-absolute top-0  h-100 w-100 d-flex justify-content-center gap-5 align-items-end'>
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className='project-link'><button className="btn btn-primary">Visit Project</button></a>
+                  <a href={project.secondaryLink} target="_blank" rel="noopener noreferrer" className="project-link"><button className="btn btn-primary">Source Code</button></a>
+                </div>
               </div>
             </div>
           </a>
