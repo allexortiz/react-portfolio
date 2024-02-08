@@ -1,12 +1,13 @@
 import React from "react";
-import myResume from "../assets/myResume.pdf";
+import myResume from "../assets/allex-ortiz-resume.pdf";
 import { BsCloudDownloadFill } from "react-icons/bs";
 export default function Resume() {
   return (
     <div>
       <section>
         <div className="d-flex justify-content-center">
-          <h1>My Resume<a href={myResume} download><BsCloudDownloadFill size={30} /></a></h1>
+          <h1>Resume & Skills<a className="ms-4" href={myResume} download data-bs-toggle="tooltip" data-bs-placement="top" title="download my resume">
+            <BsCloudDownloadFill size={30} /></a></h1>
         </div>
       </section>
       <div className="container vh-100 d-flex justify-content-center align-items-center flex-column">

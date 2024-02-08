@@ -8,7 +8,7 @@ function App() {
   return (
     <section className='container-custom' style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', minHeight: '100vh'}}>
       <NavTabs />
-      <main className="mx-3 main">
+      <main className="mx-3 main text-secondary-emphasis">
         <Outlet />
       </main>
       <Footer />
