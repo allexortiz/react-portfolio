@@ -6,7 +6,7 @@ export default function Contact() {
         <div name="contact" className="d-flex justify-content-center align-items-center p-4">
           <form action="https://getform.io/f/6d4c1ac2-87d7-446a-8abe-8fbf3e01b675" method="POST" className="max-w-600px w-100">
             <div className="pb-4">
-              <p>To get in touch with me, fill out the form or <a class="text-secondary-emphasis" href="mailto:allex.ortiz@outlook.com" >email me</a>
+              <p>To get in touch with me, fill out the form or <a className="text-secondary-emphasis" href="mailto:allex.ortiz@outlook.com" >email me</a>
               </p>
             </div>
             <input className="form-control mb-4" type="text" placeholder="Name" name="name" required />
