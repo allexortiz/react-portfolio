@@ -2,19 +2,22 @@ import profile from '../assets/profile.jpg';
 
 export default function About() {
   return (
-    <div>
-      <section className="d-flex justify-content-center">
-        <h1>About Me</h1>
-      </section>
-      <section className="d-flex justify-content-between">
-        <div>
-          <img src={profile} alt="a photo of me" className="rounded" />
+    <div className="container">
+      <section className="row justify-content-center">
+        <div className="col-md-10 col-lg-8">
+          <h1 className="text-center">About Me</h1>
         </div>
-        <div className="align-items-center flex-wrap p-4">
-          <h3>A little bit about me:</h3>
-          <p>
-            Hi there! I'm Allex Ortiz, a devoted father, music enthusiast, football aficionado, and aspiring web developer on a journey of transition and growth.
-          </p>
+      </section>
+      <section className="row">
+        <div className="col-md-4">
+          <img src={profile} alt="a photo of me" className="img-fluid rounded" />
+        </div>
+        <div className="col-md-8">
+          <div className="p-4">
+            <h3>A little bit about me:</h3>
+            <p>
+              Hi there! I'm Allex Ortiz, a devoted father, music enthusiast, football aficionado, and aspiring web developer on a journey of transition and growth.
+            </p>
 
           <p>
             As a father, my greatest joy comes from spending quality time with my son. His laughter and curiosity remind me of the importance of cherishing every moment and nurturing the bond we share.
@@ -39,8 +42,9 @@ export default function About() {
           <p>
             Let's connect and embark on this journey of growth and exploration together!
           </p>
+          </div>
         </div>
       </section>
-    </div >
+    </div>
   );
 };
