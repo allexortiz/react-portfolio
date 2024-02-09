@@ -7,8 +7,8 @@ export default function About() {
         <h1>About Me</h1>
       </section>
       <section className="d-flex justify-content-between">
-        <div className="bg-secondary">
-          <img src={profile} alt="a photo of me" className="" />
+        <div>
+          <img src={profile} alt="a photo of me" className="rounded" />
         </div>
         <div className="align-items-center flex-wrap p-4">
           <h3>A little bit about me:</h3>
