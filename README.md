@@ -1,4 +1,4 @@
-## react-portfolio
+## React Portfolio
 
 ## User Story
 ```
@@ -35,3 +35,55 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
+## Table of Contents
+- [Description](#description)
+- [Technologies](#technologies)
+- [Links](#links)
+- [Installation](#installation)
+- [Images](#images)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+## Description
+I've developed a portfolio, that can be viewed on laptops and mobile devices, using REACT and Bootstrap CSS, designed to showcase my recent projects and provide a convenient contact form for reaching out to me.
+
+## Technologies
+ - Github
+ - VS Code
+ - Netlify
+ - Axios
+ - Bootstrap
+ - React
+ - React DOM
+ - Vite
+
+## Links
+[Github Repo](https://github.com/allexortiz/react-portfolio)
+[My Portfolio](https://allex-ortiz-portfolio.netlify.app/)
+
+## Installation
+Fork this repo, `git clone` to copy this to your local drive and open in VS Code. Open the intergrated terminal and run `npm i` and then `npm start` to launch the server.
+
+## Images
+Homepage
+![homepage-about](src/assets/homePage.png)
+
+Portfolio
+![portfolio](src/assets/portfolio.png)
+
+Contact
+![contact](src/assets/contact.png)
+
+Resume
+![resume](src/assets/resume.png)
+
+## Contributing
+- Alex Lizarraga - Instructor
+- Dustin Burns - TA
+- Dennis Itus - Tutor
+
+## Questions
+If you have any addition questions feel free to reach me at either my github or email address.
+- [GitHub](https://github.com/allexortiz)
+- [Email](allex.ortiz@outlook.com)
