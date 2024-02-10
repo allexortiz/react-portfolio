@@ -59,8 +59,8 @@ I've developed a portfolio, that can be viewed on laptops and mobile devices, us
  - Vite
 
 ## Links
-[Github Repo](https://github.com/allexortiz/react-portfolio)
-[My Portfolio](https://allex-ortiz-portfolio.netlify.app/)
+- [Github Repo](https://github.com/allexortiz/react-portfolio)
+- [My Portfolio](https://allex-ortiz-portfolio.netlify.app/)
 
 ## Installation
 Fork this repo, `git clone` to copy this to your local drive and open in VS Code. Open the intergrated terminal and run `npm i` and then `npm start` to launch the server.
