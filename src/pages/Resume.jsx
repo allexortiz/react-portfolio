@@ -1,21 +1,36 @@
 import React from "react";
 import myResume from "../assets/allex-ortiz-resume.pdf";
 import { BsCloudDownloadFill } from "react-icons/bs";
+
+/**
+ * Component for displaying resume and skills learned in a full-stack coding bootcamp.
+ * It includes a download link for the resume and sections for frontend, backend, and performance technologies.
+ */
 export default function Resume() {
   return (
     <div>
+      {/* Section for Resume & Skills */}
       <section>
         <div className="d-flex justify-content-center mb-5">
-          <h1>Resume & Skills<a className="ms-4" href={myResume} download data-bs-toggle="tooltip" data-bs-placement="top" title="download my resume">
-            <BsCloudDownloadFill size={30} /></a></h1>
+          {/* Heading with download link for the resume */}
+          <h1>Resume & Skills
+            <a className="ms-4" href={myResume} download data-bs-toggle="tooltip" data-bs-placement="top" title="Download my resume">
+              <BsCloudDownloadFill size={30} />
+            </a>
+          </h1>
         </div>
       </section>
+      {/* Container for skills sections */}
       <div className="container d-flex justify-content-center align-items-center flex-column">
+        {/* Heading for skills */}
         <h2 className="mb-5">Skills I learned in full-stack coding bootcamp:</h2>
+        {/* Row for skill sections */}
         <section className="row gx-4 justify-content-center">
+          {/* Frontend technologies section */}
           <div className="col">
             <div className="d-flex flex-column">
               <h3>Font-End Tech</h3>
+              {/* List of frontend technologies */}
               <ul className="fs-4">
                 <li>HTML5</li>
                 <li>CSS</li>
@@ -26,9 +41,11 @@ export default function Resume() {
               </ul>
             </div>
           </div>
+          {/* Backend technologies section */}
           <div className="col">
             <div className="d-flex flex-column">
               <h3>Back-End Tech</h3>
+              {/* List of backend technologies */}
               <ul className="fs-4">
                 <li>Node.Js</li>
                 <li>Jest</li>
@@ -40,9 +57,11 @@ export default function Resume() {
               </ul>
             </div>
           </div>
+          {/* Performance technologies section */}
           <div className="col">
             <div className="d-flex flex-column">
               <h3>Performance Tech</h3>
+              {/* List of performance technologies */}
               <ul className="fs-4">
                 <li>NoSQL</li>
                 <li>Progressive Web Applications (PWA)</li>

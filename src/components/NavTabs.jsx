@@ -1,10 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
 
+// Component for navigation tabs
 function NavTabs() {
+  // Get the current page path using useLocation hook
   const currentPage = useLocation().pathname;
 
   return (
     <ul className="nav nav-tabs justify-content-end">
+      {/* Home tab */}
       <li className="nav-item">
         <Link
           to="/"
@@ -13,6 +16,8 @@ function NavTabs() {
           Home
         </Link>
       </li>
+      
+      {/* Portfolio tab */}
       <li className="nav-item">
         <Link
           to="/Portfolio"
@@ -21,6 +26,8 @@ function NavTabs() {
           Portfolio
         </Link>
       </li>
+      
+      {/* Contact tab */}
       <li className="nav-item">
         <Link
           to="/Contact"
@@ -29,6 +36,8 @@ function NavTabs() {
           Contact
         </Link>
       </li>
+      
+      {/* Resume tab */}
       <li className="nav-item">
         <Link
           to="/Resume"

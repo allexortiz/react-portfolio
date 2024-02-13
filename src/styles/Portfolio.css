@@ -1,44 +1,48 @@
+/* Styles for the container holding project cards */
 .projects-container {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    column-gap: 5rem;
-  }
-  
-  .project-link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .project {
-    
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    transition: opacity 0.3s ease;
-  }
-  
-  .project:hover {
-    opacity: 0.8;
-    
-  }
-  
-  .project-image {
-    width: 100%;
-    height: 250px;
-    border-radius: 5px;
-  }
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 5rem; /* Gap between columns */
+}
 
-  .btn-primary {
-    background-color: #8cbcf7;
-    border-color: #8cbcf7;
-    color: #fff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #6e9bd9;
-    border-color: #6e9bd9;
-  }
-  
+/* Styles for project links */
+.project-link {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Text color */
+}
+
+/* Styles for individual project cards */
+.project {
+  width: 300px; /* Width of each card */
+  padding: 10px; /* Padding inside the card */
+  margin: 10px; /* Margin around the card */
+  border-radius: 5px; /* Rounded corners */
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for project cards */
+.project:hover {
+  opacity: 0.8; /* Reduced opacity on hover */
+}
+
+/* Styles for project images */
+.project-image {
+  width: 100%; /* Full width */
+  height: 250px; /* Fixed height */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styles for primary buttons */
+.btn-primary {
+  background-color: #8cbcf7; /* Background color */
+  border-color: #8cbcf7; /* Border color */
+  color: #fff; /* Text color */
+}
+
+/* Hover effect for primary buttons */
+.btn-primary:hover {
+  background-color: #6e9bd9; /* Darker background color on hover */
+  border-color: #6e9bd9; /* Darker border color on hover */
+}
